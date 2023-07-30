@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
+[RequireComponent(typeof(Slider))]
+
 public class ShowHealth : MonoBehaviour
 {
     [SerializeField] Player player;
