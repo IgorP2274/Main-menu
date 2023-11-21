@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     [SerializeField] private int _currentHealth;
     [SerializeField] private UnityEvent _changeHealth;
 
-    public void TekeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         _currentHealth -= damage;
 
